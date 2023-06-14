@@ -27,7 +27,15 @@
                with font-awesome or any other icon font library -->
 
                <li class="nav-item">
-            <a href="../gallery.html" class="nav-link">
+            <a href="/ArTeM02-050/pshycology/psychology/" class="nav-link active">
+              <i class="nav-icon far fa-user"></i>
+              <p>
+                Home
+              </p>
+            </a>
+          </li>
+               <li class="nav-item">
+            <a href="/ArTeM02-050/pshycology/psychology/users" class="nav-link <?php if($routesArray[4]== "users" ): ?> active <?php endif  ?> ">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Users
@@ -35,7 +43,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/interviews" class="nav-link">
+            <a href="/ArTeM02-050/pshycology/psychology/ClinicHistory" class="nav-link <?php if($routesArray[4] == "ClinicHistory"): ?> active <?php endif ?> ">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Clinic History
@@ -43,7 +51,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="../gallery.html" class="nav-link">
+            <a href="/ArTeM02-050/pshycology/psychology/interviews" class="nav-link  <?php if($routesArray[4] == "interviews"): ?> active <?php endif ?>">
               <i class="nav-icon far fa-user"></i>
               <p>
                 interviews
@@ -51,7 +59,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="../gallery.html" class="nav-link">
+            <a href="/ArTeM02-050/pshycology/psychology/psychologys" class="nav-link <?php if($routesArray[4] == "psychologys"): ?> active <?php endif ?> ">
               <i class="nav-icon far fa-user"></i>
               <p>
                 psychologys
@@ -59,7 +67,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="../gallery.html" class="nav-link">
+            <a href="/ArTeM02-050/pshycology/psychology/treatment" class="nav-link <?php if($routesArray[4] == "treatment"): ?> active <?php endif ?> ">
               <i class="nav-icon far fa-user"></i>
               <p>
                 treatment
