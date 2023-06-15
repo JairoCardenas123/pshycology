@@ -15,7 +15,7 @@ $routesArray = array_filter($routesArray);
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Fixed Sidebar</title>
+  <title>AdminLTE 3| Fixed Sidebar</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -44,15 +44,20 @@ $routesArray = array_filter($routesArray);
     <!-- Content Header (Page header) -->
 
   <?php
+/* 
+  echo "<pre>";
+  print_r($routesArray);
+  echo "<pre>"; */
 
-  if(!empty($routesArray[4])){
-    if($routesArray[4]== "clinicHistory" ||
-       $routesArray[4]== "interviews" ||
-       $routesArray[4]== "psychologys" ||
-       $routesArray[4]== "treatment" ||
-       $routesArray[4]== "users"){
-        include "views/pages/".$routesArray[4]."/".$routesArray[4]."php"; 
-       }; 
+
+  if(!empty($routesArray[5])){
+    if($routesArray[5]== "clinicHistory" || 
+       $routesArray[5]== "interviews" || 
+       $routesArray[5]== "psychologys" || 
+       $routesArray[5]== "treatment" || 
+       $routesArray[5]== "users"){
+          include "views/pages/".$routesArray[5]."/".$routesArray[5].".php"; 
+       }  
   }else{
     include "views/pages/home/home.php";
   }
@@ -69,7 +74,7 @@ $routesArray = array_filter($routesArray);
 
 <!-- jQuery -->
 <script src="views/assets/plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap 4 -->
+<!-- Bootstrap  -->
 <script src="views/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- overlayScrollbars -->
 <script src="views/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
