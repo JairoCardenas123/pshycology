@@ -27,7 +27,7 @@
                with font-awesome or any other icon font library -->
 
                <li class="nav-item">
-            <a href="/SkylAb-132/Psychology2.0/pshycology/psychology/" class="nav-link active">
+            <a href="/ArTeM02-050/psychology2.0/pshycology/psychology/" class="nav-link active">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Home
@@ -35,7 +35,7 @@
             </a>
           </li>
                <li class="nav-item">
-            <a href="/SkylAb-132/Psychology2.0/pshycology/psychology/users" class="nav-link <?php if($routesArray[5]== "users"):?> active <?php endif ?> " >
+            <a href="/ArTeM02-050/psychology2.0/pshycology/psychology/users" class="nav-link <?php if($routesArray[5]== "users"):?> active <?php endif ?> " >
               <i class="nav-icon far fa-user"></i>
               <p>
                 Users
@@ -43,7 +43,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/SkylAb-132/Psychology2.0/pshycology/psychology/clinicHistory" class="nav-link <?php if($routesArray[5] == "clinicHistory"): ?> active <?php endif ?> ">
+            <a href="/ArTeM02-050/psychology2.0/pshycology/psychology/clinicHistory" class="nav-link <?php if($routesArray[5] == "clinicHistory"): ?> active <?php endif ?> ">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Clinic History
@@ -51,7 +51,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/SkylAb-132/Psychology2.0/pshycology/psychology/interviews" class="nav-link  <?php if($routesArray[5] == "interviews"): ?> active <?php endif ?>">
+            <a href="/ArTeM02-050/psychology2.0/pshycology/psychology/interviews" class="nav-link  <?php if($routesArray[5] == "interviews"): ?> active <?php endif ?>">
               <i class="nav-icon far fa-user"></i>
               <p>
                 interviews
@@ -59,7 +59,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/SkylAb-132/Psychology2.0/pshycology/psychology/psychologys" class="nav-link <?php if($routesArray[5] == "psychologys"): ?> active <?php endif ?> ">
+            <a href="/ArTeM02-050/psychology2.0/pshycology/psychology/psychologys" class="nav-link <?php if($routesArray[5] == "psychologys"): ?> active <?php endif ?> ">
               <i class="nav-icon far fa-user"></i>
               <p>
                 psychologys
@@ -67,7 +67,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/SkylAb-132/Psychology2.0/pshycology/psychology/treatment" class="nav-link <?php if($routesArray[5] == "treatment"): ?> active <?php endif ?> ">
+            <a href="/ArTeM02-050/psychology2.0/pshycology/psychology/treatment" class="nav-link <?php if($routesArray[5] == "treatment"): ?> active <?php endif ?> ">
               <i class="nav-icon far fa-user"></i>
               <p>
                 treatment
